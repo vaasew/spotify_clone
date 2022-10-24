@@ -3,10 +3,10 @@ import './style.css'
 
 document.addEventListener("DOMContentLoaded",()=>{
   if(localStorage.getItem("accessToken")){
-    window.location.href="dashboard/dashboard.html";
+    window.location.href=`${APP_URL}/dashboard/dashboard.html`;
   }
   else{
-    window.location.href="login/login.html"
+    window.location.href=`${APP_URL}/login/login.html`
     // window.location.href = 'http://www.google.com'; //Will take you to Google.
   }
 })
