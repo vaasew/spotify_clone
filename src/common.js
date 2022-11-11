@@ -25,7 +25,4 @@ export const setItemInLocalStorage = (key, value) => {
     return localStorage.setItem(key, JSON.stringify(value));
 }
 
-export const SECTIONTYPE = {
-    DASHBOARD: "DASHBOARD",
-    PLAYLIST: "PLAYLIST"
-}
+
