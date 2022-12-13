@@ -1,4 +1,5 @@
 import './style.css'
+import {APP_URL} from } "./common"
 //page reload at port 3000 due to "start" in package.json
 
 document.addEventListener("DOMContentLoaded",()=>{
